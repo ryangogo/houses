@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.ryan.houses.mapper.AgencyMapper">
-    <resultMap id="BaseResultMap" type="com.ryan.houses.pojo.Agency">
-        <!--
-          WARNING - @mbg.generated
-        -->
-        <id column="id" property="id" jdbcType="INTEGER"/>
-        <result column="name" property="name" jdbcType="VARCHAR"/>
-        <result column="address" property="address" jdbcType="VARCHAR"/>
-        <result column="phone" property="phone" jdbcType="VARCHAR"/>
-        <result column="email" property="email" jdbcType="VARCHAR"/>
-        <result column="about_us" property="aboutUs" jdbcType="VARCHAR"/>
-        <result column="mobile" property="mobile" jdbcType="VARCHAR"/>
-        <result column="web_site" property="webSite" jdbcType="VARCHAR"/>
-    </resultMap>
+  <resultMap id="BaseResultMap" type="com.ryan.houses.pojo.Agency">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id"/>
+    <result column="name" jdbcType="VARCHAR" property="name"/>
+    <result column="address" jdbcType="VARCHAR" property="address"/>
+    <result column="phone" jdbcType="VARCHAR" property="phone"/>
+    <result column="email" jdbcType="VARCHAR" property="email"/>
+    <result column="about_us" jdbcType="VARCHAR" property="aboutUs"/>
+    <result column="mobile" jdbcType="VARCHAR" property="mobile"/>
+    <result column="web_site" jdbcType="VARCHAR" property="webSite"/>
+  </resultMap>
 </mapper>
